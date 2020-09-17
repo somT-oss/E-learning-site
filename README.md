@@ -1,6 +1,6 @@
 # E-learning-site
 
-## To run this, you need to create a virtualenv called 'e-learning-website'
+## To run this, you need to create a virtualenv called 'e-learning-site'
 ## Within the virtualenv you need to install django, django_crispy_forms  
 ```
 pip install django
