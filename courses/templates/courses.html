@@ -1,0 +1,23 @@
+<style>
+    img {
+        width: 20%;
+    }
+</style>
+
+{% extends 'base.html' %}
+    {% block content %}
+        {% for course in courses %}
+            <ul>
+                <li>{{ course.course_name }}</li>
+                <li>{{ course.course_author }}</li>
+                <li>{{ course.course_datestamp }}</li>
+                <img src="{{ course.course_image.url }}" />
+            </ul>
+        {% endfor %}
+        
+        <br>
+        <input type="search" name="search_course" placeholder="Search course" />
+        <input type="submit" value="submit" />
+
+    {% endblock %}
+

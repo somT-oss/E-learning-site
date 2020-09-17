@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html >
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="e-learning.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+  <meta name="description" content="e-learning SITE ">
+  <title>e-learning SITE</title>
+
+  {% load static %}
+
+  <link rel="stylesheet" href="{% static 'css/bootstrap-grid.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.min.css' %}">
+
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min (1).css' %}" >
+  <link rel="stylesheet" href="{% static 'css/s4.css' %}">
+  <link rel="stylesheet" href="{% static 'css/fontawesome-free-5.13.0-web(0)/css/all.css' %}" >
+
+  <script src="{% static 'js/jquery-3.2.1.slim.min.js' %}"></script>
+  <script src="{% static 'js/popper.min.js' %}" ></script>
+  <script src="{% static 'js/bootstrap.min (1).js' %}" ></script>
+</head>
+<body>
+<section>
+
+<!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg  mynav  fixed-top ">
+
+   <a class="navbar-brand" href="#"><span class="headtext" >e-learning</span></a>
+    <button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars fa-2x " ></i>
+    </button>
+
+    <div class="collapse navbar-collapse align-center " id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+          </a>
+        </li>
+                <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT US</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+</section>
+
+
+
+    <section class="navbreak"></section>
+
+
+
+
+
+
+<!--main content-->
+
+	    <section>
+                    <div class="container creat fs">
+
+
+
+        <div class="row">
+
+
+          <div class="p-2 col-md-6 col-lg-3">
+
+                    <h3 class="align-center" > <a href="#" >
+                      <i class="fas fa-plus-circle   flg display-1"></i></h3></a>
+                    <a href="#"><h2 class=" align-center display-5">
+                              Create Course </h2></a>
+
+              </div>
+
+          <div class="p-2 col-md-6 col-lg-3">
+
+                    <h3 class="align-center" > <a href="#" >
+                      <i class="fas fa-search  flg display-1"></i></h3></a>
+                    <a href="#"><h2 class=" align-center display-5">
+                              Find Course </h2></a>
+
+              </div>
+
+
+						    <div class="p-2 col-md-6 col-lg-3">
+
+                          <h3 class="align-center" > <a href="#" >
+                            <i class="fas fa-user-circle flg display-1"></i></h3></a>
+                          <a href="#"><h2 class=" align-center display-5">
+                                    Login </h2></a>
+
+                    </div>
+
+	               <div class="p-2 col-md-6 col-lg-3">
+
+                          <h3 class="align-center" >   <a href="#">   <i class="fas fa-user-plus   flg display-1"></i></a></h3>
+                                <h3 class=" align-center display-5"><a href="{% url 'register' %}">
+                                    Sign up</a></h3>
+	</div>
+	</div>
+	</div>
+	</section>
+
+
+
+
+
+	<!--part two-->
+	    <section>
+                    <div class="container description  ">
+
+        <h1 class="align-center descriptiontext  p-2" >Why should you use e-learning.com ? </h1>
+
+        <div class="row">
+                    <div class="p-2 col-md-4 col-lg-3">
+
+                          <h2 class="align-center descriptionitem" >  01    </h2>
+                                <h3 class=" align-center display-5">
+                                    Lorem ipsum  </h3>
+
+                    </div>
+
+                                   <div class="p-2 col-md-4 col-lg-3">
+
+                          <h3 class="align-center descriptionitem" >      02</h3>
+                                <h3 class=" align-center display-5">
+                                    Lorem ipsum  </h3>
+	</div>
+
+	               <div class="p-2 col-md-4 col-lg-3">
+
+                          <h3 class="align-center descriptionitem" >      03</h3>
+                                <h3 class=" align-center display-5">
+                                    Lorem ipsum  </h3>
+	</div>
+
+
+	               <div class="p-2 col-md-4 col-lg-3">
+
+                          <h3 class="align-center descriptionitem" >      04</h3>
+                                <h3 class=" align-center display-5">
+                                    Lorem ipsum  </h3>
+	</div>
+	               <div class="p-2 col-md-4 col-lg-3">
+
+                          <h3 class="align-center descriptionitem" > 05</h3>
+                                <h3 class=" align-center display-5">
+                                    Lorem ipsum  </h3>
+                                    </div>
+	               <div class="p-2 col-md-4 col-lg-3">
+
+                          <h3 class="align-center descriptionitem" >  06</h3>
+                                <h3 class=" align-center display-5">
+                                    Lorem ipsum </h3>
+	</div>
+	</div>
+	</div>
+	</section>
+
+
+
+<!--FOOTER-->
+<section class="sect"  data-sortbtn="btn-primary">
+
+    <div class="container ">
+        <div class="row align-center justify-content-center align-items-center">
+            <div class="col-sm-12 col-lg-4 footcontent  display-7">
+              <a href="#" >ABOUT US</a><br><a href="contact us.html " >CONTACT US</a><br><a href="#" >SITE MAP</a>
+            <br><br>
+                © 2020 All Rights Reserved Terms of Use and Privacy Policy<br>
+            </div>
+            <div class="social-media col-sm-12 col-lg-4">
+                <ul>
+                    <li>
+                      <a class="icon" href="#">
+                        <i class="fab fa-instagram fa-lg" ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icon" href="#">
+                        <i class="fab fa-twitter" ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icon" href="#">
+                        <i class="fab fa-facebook " ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icon" href="#">
+                        <i class="fab fa-whatsapp fa-lg " ></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="icon" href="#">
+                        <i class="fab fa-telegram fa-2x "  ></i>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+</body>
+</html>
